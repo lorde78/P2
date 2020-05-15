@@ -15,6 +15,7 @@ html
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	width:100%;
 }
 
 body
@@ -43,6 +44,7 @@ section
 	margin-bottom: -1px;
 	display:flex;
 	flex-direction:row;
+	height: 936px;
 }
 
 li
@@ -125,6 +127,7 @@ p#aside_image img
 {
 	position: relative;
 	text-align:center;
+	padding-top: 58px;
 }
 
 #loisirs img
@@ -142,19 +145,117 @@ p#aside_image img
 	font-size:12px;
 }
 
-#titre_competences
+
+#titre_competences 
 {
 	font-family: 'OpenSans-Light';
-	font-size:16px;
 	float:left;
 	display:inline-block;
 	padding-left: 72px;
+
 }
+#titre_competences p
+{
+font-family: 'OpenSans-Light';
+font-size:12px;
+}
+
+#description_competences p
+{
+margin-top: 2px;
+}
+
 
 #titre_competences h3
 {
 	font-size:16px;
+	margin-bottom:10px;
 }
+
+#competences
+{
+	display:inline-block;
+	width:100%;
+}
+
+#titre_experience
+{
+	font-family: 'OpenSans-Light';
+	width:10%;
+	display:inline-block;
+	font-size:12px;
+}
+
+#titre_experience p
+{
+margin-bottom:48px;
+}
+
+#description_experience
+
+{
+	display:inline-block;
+	font-family: 'OpenSans-Light';
+	font-size:12px;
+	float:right;
+	width:80%;
+}
+
+#description_experience p
+{
+	text-align:left;
+}
+
+#experience
+{
+	display:inline-block;
+}
+
+#titre_formation
+{
+	font-family: 'OpenSans-Light';
+	width:20%;
+	display:inline-block;
+	font-size:12px;
+}
+
+#description_formation
+{
+	display:inline-block;
+	font-family: 'OpenSans-Light';
+	font-size:12px;
+	float:right;
+	width:80%;
+}
+
+#formation
+{
+	display:inline-block;
+	width:100%;
+	padding-top: 52px;
+}
+
+#description_formation p
+{
+	text-align:left;
+}
+
+#Nom
+{
+	font-family: 'OpenSans-Light';
+	font-size:42px;
+}
+
+#Nom p
+{
+	margin-bottom:10px;
+}
+
+#titre
+{
+	margin-top: -14px;
+}
+
 
 
 
