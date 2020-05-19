@@ -63,16 +63,16 @@ article
 
 img.icon_thinking
 {
-padding-right:5px;
+padding-right:10px;
 }
 img.icon_skill
 {
-padding-right:5px;
+padding-right:10px;
 }
 
 img.icon_tool
 {
-padding-right:5px;
+padding-right:10px;
 }
 
 aside
@@ -144,6 +144,7 @@ p#aside_image img
 	padding-top: 10px;
 	font-family: 'OpenSans-Light';
 	font-size:12px;
+	width:80%;
 }
 
 
@@ -152,7 +153,7 @@ p#aside_image img
 	font-family: 'OpenSans-Light';
 	float:left;
 	display:inline-block;
-	padding-left: 72px;
+	width:10%;
 
 }
 #titre_competences p
@@ -245,6 +246,7 @@ margin-bottom:48px;
 {
 	font-family: 'OpenSans-Light';
 	font-size:42px;
+	text-align:left;
 }
 
 #Nom p
@@ -267,11 +269,16 @@ margin-bottom:48px;
 #titre
 {
 	margin-top: -14px;
-	background: url('contenu/image/separateur.png') repeat-x bottom;
 	background-size:12px;
+	margin-left: 3px;
 
 }
 
+#titre em
+{
+	text-decoration:underline #3f51b5;
+	font-style: normal;
+}
 
 
 
@@ -279,19 +286,60 @@ margin-bottom:48px;
 
 @media screen and (max-width: 1024px)
 {
-	#liseret
+	html
+	{
+		width:100%;
+		height:100%;
+	}
+	body
+	{
+		width: 100%;
+		height:100%;
+		border:none;
+	}
+	p#aside_image img
 	{
 		display:none;
 	}
-	
+	p#aside_image
+	{
+		display:none;
+	}
 	section
 	{
-		display:block;
-		width:auto;
+	display:flex;
+	flex-direction:column;	
 	}
-
-	#contenu
+	article
 	{
-		width:auto;
+	display:flex;
+	flex-direction:column;
+	order:1;
+	}
+	aside
+	{
+	display:flex;
+	flex-direction:column;
+	order:2;
+	width:100%;
+	height:100%;
+	}
+#contact ul
+{
+	display:inline-flex;
+	flex-direction:column;
+	padding-inline-start: 85px;
+}
+	#contact li
+	{
+		display:flex;
+	}
+	#contact
+	{
+		margin-top:-14px;
+	}
+	p#textapropos
+	{
+		text-align: center;
 	}
 }
