@@ -1,8 +1,9 @@
 @font-face 
 {
-    font-family: 'OpenSans-Light';
-    src: url('contenu/font/OpenSans-Light.ttf');
+	font-family: 'OpenSans-Light';
+	src: url('contenu/font/OpenSans-Light.ttf');
 }
+
 @font-face
 {
 	font-family:'OpenSans-Bold';
@@ -11,19 +12,16 @@
 
 html
 {
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
+	
 	width:100%;
 }
 
 body
 {
 	font-family: 'OpenSans-Light';
-    margin:auto;
-    width:900px;
-    border:1px solid grey;
+	margin:auto;
+	width:900px;
+	border:1px solid grey;
 }
 
 h1
@@ -55,32 +53,33 @@ li
 
 article
 {
-    margin-right: 20px;
-    padding-left:40px;
-   	order:2;
-   	width:70%;
+	margin-right: 20px;
+	padding-left:40px;
+	order:2;
+	width:70%;
 }
 
 img.icon_thinking
 {
-padding-right:10px;
+	padding-right:10px;
 }
+
 img.icon_skill
 {
-padding-right:10px;
+	padding-right:10px;
 }
 
 img.icon_tool
 {
-padding-right:10px;
+	padding-right:10px;
 }
 
 aside
 {
 	order:1;
-    position:relative;
-    background-color:#3F51B5;
-    width:30%;
+	position:relative;
+	background-color:#3F51B5;
+	width:30%;
 }
 
 aside h2
@@ -100,8 +99,9 @@ aside ul
 #textapropos
 {
 	margin-left: 7px;
-    margin-right: 6px;
+	margin-right: 6px;
 }
+
 p#textapropos
 {
 	font-size:12px;
@@ -111,24 +111,24 @@ p#aside_image
 {
 	text-align:center;
 	padding-top: 24px;
-    padding-bottom: 10px
+	padding-bottom: 10px
 }
 
 p#aside_image img
 {
 	width : 150px; 
 	height : 150px;
-  	border: none;
-  	-moz-border-radius : 75px;
-  	-webkit-border-radius : 75px;
-  	border-radius : 75px;
+	border: none;
+	-moz-border-radius : 75px;
+	-webkit-border-radius : 75px;
+	border-radius : 75px;
 }
 
 #loisirs
 {
 	position: relative;
 	text-align:center;
-	padding-top: 58px;
+	padding-top: 54px;
 }
 
 #loisirs img
@@ -147,26 +147,28 @@ p#aside_image img
 	width:80%;
 }
 
+#apropos
+{
+	padding-top:2px;
+}
 
 #titre_competences 
 {
 	font-family: 'OpenSans-Light';
-	float:left;
 	display:inline-block;
 	width:10%;
-
 }
+
 #titre_competences p
 {
-font-family: 'OpenSans-Light';
-font-size:12px;
+	font-family: 'OpenSans-Light';
+	font-size:12px;
 }
 
 #description_competences p
 {
-margin-top: 2px;
+	margin-top: 2px;
 }
-
 
 #titre_competences h3
 {
@@ -180,6 +182,20 @@ margin-top: 2px;
 	width:100%;
 }
 
+#icone
+{
+	display:inline-block;
+	float:left;
+	width:5%;
+}
+
+#icone i
+{
+	padding-top: 19px;
+    margin-bottom: 47px;
+    color:#3f51b5;
+}
+
 #titre_experience
 {
 	font-family: 'OpenSans-Light';
@@ -190,17 +206,16 @@ margin-top: 2px;
 
 #titre_experience p
 {
-margin-bottom:48px;
+	margin-bottom:48px;
 }
 
 #description_experience
-
 {
 	display:inline-block;
 	font-family: 'OpenSans-Light';
 	font-size:12px;
 	float:right;
-	width:80%;
+	width:70%;
 }
 
 #description_experience p
@@ -211,6 +226,20 @@ margin-bottom:48px;
 #experience
 {
 	display:inline-block;
+}
+
+#icone2
+{
+	display:inline-block;
+	float:left;
+	width:5%;
+}
+
+#icone2 i
+{
+	padding-top: 19px;
+    margin-bottom: 12px;
+    color:#3f51b5;
 }
 
 #titre_formation
@@ -227,7 +256,7 @@ margin-bottom:48px;
 	font-family: 'OpenSans-Light';
 	font-size:12px;
 	float:right;
-	width:80%;
+	width:70%;
 }
 
 #formation
@@ -266,6 +295,11 @@ margin-bottom:48px;
 	color:black;
 }
 
+#titre_principal
+{
+	padding-top: 66px;
+}
+
 #titre
 {
 	margin-top: -14px;
@@ -274,14 +308,26 @@ margin-bottom:48px;
 
 }
 
-#titre em
-{
-	text-decoration:underline #3f51b5;
-	font-style: normal;
+.underline {
+   text-decoration: none; 
+   position: relative;
+   text-decoration-color:rgb(0,0,0); 
+ }   
+
+.underline:after {
+    position: absolute;
+    height: 1px;
+    margin: 0 auto;
+    content: '';
+    left: 0;
+    right: 0;
+    width: 90%;
+    background-color: #3f51b5;
+    left: 0;
+    bottom: -3px; /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+    text-decoration-color:rgb(0,0,0);
+    text-decoration:none;
 }
-
-
-
 
 
 @media screen and (max-width: 1024px)
@@ -291,53 +337,63 @@ margin-bottom:48px;
 		width:100%;
 		height:100%;
 	}
+
 	body
 	{
 		width: 100%;
 		height:100%;
 		border:none;
 	}
+
 	p#aside_image img
 	{
 		display:none;
 	}
+
 	p#aside_image
 	{
 		display:none;
 	}
+
 	section
 	{
-	display:flex;
-	flex-direction:column;	
+		display:flex;
+		flex-direction:column;	
 	}
+
 	article
 	{
-	display:flex;
-	flex-direction:column;
-	order:1;
+		display:flex;
+		flex-direction:column;
+		order:1;
 	}
+
 	aside
 	{
-	display:flex;
-	flex-direction:column;
-	order:2;
-	width:100%;
-	height:100%;
+		display:flex;
+		flex-direction:column;
+		order:2;
+		width:100%;
+		height:100%;
 	}
-#contact ul
-{
-	display:inline-flex;
-	flex-direction:column;
-	padding-inline-start: 85px;
-}
+
+	#contact ul
+	{
+		display:inline-flex;
+		flex-direction:column;
+		padding-inline-start: 85px;
+	}
+
 	#contact li
 	{
 		display:flex;
 	}
+
 	#contact
 	{
 		margin-top:-14px;
 	}
+
 	p#textapropos
 	{
 		text-align: center;
