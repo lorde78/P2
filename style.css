@@ -467,16 +467,16 @@ p#aside_image img
     padding-top: 19px;
     margin-bottom: 63px;
     color: #3f51b5;
-}
-#titre_formation p {
+	}
+	#titre_formation p {
     margin-bottom: 66px;
-}
-#description_formation p {
+	}
+	#description_formation p {
     text-align: left;
     margin-bottom: 65px;
-}
-#description_experience p {
+	}
+	#description_experience p {
     text-align: left;
     margin-bottom: 77px;
-}
+	}
 }
