@@ -405,7 +405,7 @@ p#aside_image img
 	{
 		display:inline-flex;
 		flex-direction:column;
-		padding-inline-start: 85px;
+		
 	}
 
 	#contact li
