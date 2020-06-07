@@ -528,10 +528,9 @@ header
     padding-right: 7px;
 }
 
-#icone1 i 
-{
+#icone1 i {
     padding-top: 19px;
-    margin-bottom: 43px;
+    margin-bottom: 97px;
     color: #3f51b5;
 }
 
@@ -544,7 +543,7 @@ header
 }
 #titre_formation p 
 {
-    margin-bottom: 48px;
+    margin-bottom: 82px;
 }
 
 #icone2 
@@ -567,6 +566,22 @@ header
 #description_formation p 
 {
     text-align: left;
-    margin-bottom: 12px;
+    margin-bottom: 65px;
 }
+#description_formation 
+{
+    display: inline-block;
+    font-size: 12px;
+    float: right;
+    width: 66%;
+}
+}
+@media screen and (max-width: 2560px)
+{
+	body 
+	{
+    font-family: 'OpenSans-Light';
+    width: auto;
+    margin:none;
+	}
 }
