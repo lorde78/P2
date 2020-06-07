@@ -35,14 +35,17 @@ article h2
 	background-size:12px;
 	font-size:20px;
 }
-
+section h1
+{
+	display:none;
+}
 section
 {
 	margin-bottom: -1px;
 	display:flex;
 	flex-direction:row;
 	height: 1020px;
-    border: 1px solid grey;
+	border: 1px solid grey;
 }
 
 li
@@ -106,10 +109,10 @@ aside ul
 p#textapropos
 {
 	font-size: 12px;
-    display: flex;
-    width: 80%;
-    text-align: justify;
-    margin-left: 24px;
+	display: flex;
+	width: 80%;
+	text-align: justify;
+	margin-left: 24px;
 }
 
 p#aside_image
@@ -124,8 +127,6 @@ p#aside_image img
 	width : 150px; 
 	height : 150px;
 	border: none;
-	-moz-border-radius : 75px;
-	-webkit-border-radius : 75px;
 	border-radius: 72px;
 }
 
@@ -197,8 +198,8 @@ footer
 #recommendations_2 h3
 {
 	margin-bottom:1px;
-  text-transform: uppercase;
-  font-size:12px;
+	text-transform: uppercase;
+	font-size:12px;
 }
 
 footer p
@@ -217,8 +218,8 @@ footer p
 #icone1 i
 {
 	padding-top: 19px;
-    margin-bottom: 31px;
-    color:#3f51b5;
+	margin-bottom: 31px;
+	color:#3f51b5;
 }
 
 #titre_experience
@@ -263,8 +264,8 @@ footer p
 #icone2 i
 {
 	padding-top: 19px;
-    margin-bottom: 46px;
-    color:#3f51b5;
+	margin-bottom: 46px;
+	color:#3f51b5;
 }
 
 #titre_formation
@@ -340,24 +341,24 @@ header
 }
 
 .underline {
-   text-decoration: none; 
-   position: relative;
-   text-decoration-color:rgb(0,0,0); 
- }   
+	text-decoration: none; 
+	position: relative;
+	text-decoration-color:rgb(0,0,0); 
+}   
 
 .underline:after {
-    position: absolute;
-    height: 1px;
-    margin: 0 auto;
-    content: '';
-    left: 0;
-    right: 0;
-    width: 90%;
-    background-color: #3f51b5;
-    left: 0;
-    bottom: -3px; /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
-    text-decoration-color:rgb(0,0,0);
-    text-decoration:none;
+	position: absolute;
+	height: 1px;
+	margin: 0 auto;
+	content: '';
+	left: 0;
+	right: 0;
+	width: 90%;
+	background-color: #3f51b5;
+	left: 0;
+	bottom: -3px; /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+	text-decoration-color:rgb(0,0,0);
+	text-decoration:none;
 }
 
 
@@ -422,7 +423,7 @@ header
 
 	#contact
 	{
-	margin-top: -16px;
+		margin-top: -16px;
 	}
 
 	p#textapropos
@@ -435,153 +436,144 @@ header
 	}
 	#loisirs 
 	{
-    position: relative;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 10px;
-}
-
-@media screen and (min-width: 800px)
-{
-	html
-	{
-		width:100%;
-		height:100%;
-	}
-
-	body
-	{
-		width: 100%;
-		height:100%;
-		border:none;
-	}
-	section
-	{
-		display:flex;
-		flex-direction:column;
-		border:none;	
-	}
-
-	#titre_experience p 
-	{
-    margin-bottom: 112px;
-	}
-
-	#icone2 i 
-	{
-    padding-top: 19px;
-    margin-bottom: 110px;
-    color: #3f51b5;
-	}
-
-	#icone1 i 
-	{
-    padding-top: 19px;
-    margin-bottom: 63px;
-    color: #3f51b5;
-	}
-
-	#titre_formation p 
-	{
-    margin-bottom: 66px;
-	}
-
-	#description_formation p 
-	{
-    text-align: left;
-    margin-bottom: 65px;
-	}
-
-	#description_experience p 
-	{
-    text-align: left;
-    margin-bottom: 77px;
+		position: relative;
+		text-align: center;
+		padding-top: 0px;
+		padding-bottom: 10px;
 	}
 }
-
-@media screen and (min-width: 320px)
-{
-	html
+	@media screen and (min-width: 800px)
 	{
-		width:100%;
-		height:100%;
+		html
+		{
+			width:100%;
+			height:100%;
+		}
+
+		body
+		{
+			width: 100%;
+			height:100%;
+			border:none;
+		}
+		section
+		{
+			display:flex;
+			flex-direction:column;
+			border:none;	
+		}
+
+		#titre_experience p 
+		{
+			margin-bottom: 112px;
+		}
+
+		#icone2 i 
+		{
+			padding-top: 19px;
+			margin-bottom: 110px;
+			color: #3f51b5;
+		}
+
+		#icone1 i 
+		{
+			padding-top: 19px;
+			margin-bottom: 63px;
+			color: #3f51b5;
+		}
+
+		#titre_formation p 
+		{
+			margin-bottom: 66px;
+		}
+
+		#description_formation p 
+		{
+			text-align: left;
+			margin-bottom: 65px;
+		}
+
+		#description_experience p 
+		{
+			text-align: left;
+			margin-bottom: 77px;
+		}
 	}
 
-	body
+	@media screen and (min-width: 320px)
 	{
-		width: 100%;
-		height:100%;
-		border:none;
+		html
+		{
+			width:100%;
+			height:100%;
+		}
+
+		body
+		{
+			width: 100%;
+			height:100%;
+			border:none;
+		}
+		section
+		{
+			display:flex;
+			flex-direction:column;
+			border:none;	
+		}
+
+		#icone1 
+		{
+			display: inline-block;
+			float: left;
+			width: 5%;
+			padding-right: 7px;
+		}
+
+		#icone1 i {
+			padding-top: 19px;
+			margin-bottom: 97px;
+			color: #3f51b5;
+		}
+
+		#titre_formation 
+		{
+			width: 20%;
+			display: inline-block;
+			font-size: 12px;
+			padding-right: 7px;
+		}
+		#titre_formation p 
+		{
+			margin-bottom: 82px;
+		}
+
+		#icone2 
+		{
+			display: inline-block;
+			float: left;
+			width: 5%;
+			padding-right: 7px;
+		}
+		#icone2 i 
+		{
+			padding-top: 19px;
+			margin-bottom: 113px;
+			color: #3f51b5;
+		}
+		#titre_experience p 
+		{
+			margin-bottom: 115px;
+		}
+		#description_formation p 
+		{
+			text-align: left;
+			margin-bottom: 65px;
+		}
+		#description_formation 
+		{
+			display: inline-block;
+			font-size: 12px;
+			float: right;
+			width: 66%;
+		}
 	}
-	section
-	{
-		display:flex;
-		flex-direction:column;
-		border:none;	
-	}
-
-	#icone1 
-	{
-    display: inline-block;
-    float: left;
-    width: 5%;
-    padding-right: 7px;
-}
-
-#icone1 i {
-    padding-top: 19px;
-    margin-bottom: 97px;
-    color: #3f51b5;
-}
-
-#titre_formation 
-{
-    width: 20%;
-    display: inline-block;
-    font-size: 12px;
-    padding-right: 7px;
-}
-#titre_formation p 
-{
-    margin-bottom: 82px;
-}
-
-#icone2 
-{
-    display: inline-block;
-    float: left;
-    width: 5%;
-    padding-right: 7px;
-}
-#icone2 i 
-{
-    padding-top: 19px;
-    margin-bottom: 113px;
-    color: #3f51b5;
-}
-#titre_experience p 
-{
-    margin-bottom: 115px;
-}
-#description_formation p 
-{
-    text-align: left;
-    margin-bottom: 65px;
-}
-#description_formation 
-{
-    display: inline-block;
-    font-size: 12px;
-    float: right;
-    width: 66%;
-}
-}
-@media screen and (max-width: 2560px)
-{
-	body 
-	{
-    font-family: 'OpenSans-Light';
-    width: auto;
-    margin:none;
-	}
-}
