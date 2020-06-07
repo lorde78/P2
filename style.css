@@ -166,7 +166,7 @@ p#aside_image img
 	margin-bottom:10px;
 }
 
-#competences
+footer
 {
 	display:inline-block;
 	width:100%;
@@ -201,7 +201,7 @@ p#aside_image img
   font-size:12px;
 }
 
-#competences p
+footer p
 {
 	margin-bottom:0px;
 	margin-top:0px;
@@ -326,7 +326,7 @@ p#aside_image img
 	color:black;
 }
 
-#titre_principal
+header
 {
 	padding-top: 66px;
 }
@@ -429,7 +429,8 @@ p#aside_image img
 	{
 		text-align: center;
 	}
-	#competences {
+	footer 
+	{
 		padding-bottom: 10px;
 	}
 	#loisirs 
@@ -556,11 +557,16 @@ p#aside_image img
 #icone2 i 
 {
     padding-top: 19px;
-    margin-bottom: 79px;
+    margin-bottom: 113px;
     color: #3f51b5;
 }
 #titre_experience p 
 {
-    margin-bottom: 82px;
+    margin-bottom: 115px;
+}
+#description_formation p 
+{
+    text-align: left;
+    margin-bottom: 12px;
 }
 }
