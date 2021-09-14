@@ -28,7 +28,10 @@ article h2 {
   background-size: 12px;
   font-size: 20px;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
 section h1 {
   display: none;
 }
@@ -89,7 +92,7 @@ aside ul {
 }
 
 p#textapropos {
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   width: 80%;
   text-align: justify;
@@ -411,7 +414,7 @@ header {
 
   #description_experience p {
     text-align: left;
-    margin-bottom: 77px;
+    margin-bottom: 69px;
   }
 }
 
@@ -557,7 +560,7 @@ header {
   }
 
   p#textapropos {
-    font-size: 15px;
+    font-size: 14px;
     display: flex;
     width: 80%;
     text-align: justify;
